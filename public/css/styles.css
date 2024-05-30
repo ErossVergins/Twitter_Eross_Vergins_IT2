@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.twitter-logo {
+font-size: 2em;
+color: #1da1f2;
+}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+}
+
+.mb-3, .form-control {
+    border-radius: 10px;
+}
+
+* {
+    border-radius: 10px;
+  }
+  .navbar, .navbar * {
+    border-radius: 0;
+  }
+  button {
+    border-radius: 50px !important;
+  }
